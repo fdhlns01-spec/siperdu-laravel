@@ -39,17 +39,17 @@
         </div>
         </div>
         <div class="col-sm-6 col-lg-3">
-        <div class="card card-custom card-hover-shadow h-100">
-            <div class="card-body d-flex align-items-center justify-content-between">
-            <div>
-                <h6 class="card-title">Peminjaman Hari Ini</h6>
-                <h3 class="card-value">56</h3>
-            </div>
-            <i class="bi bi-clock-history card-icon text-warning"></i>
-            </div>
-        </div>
-        </div>
-    
+  <div class="card card-custom card-hover-shadow h-100">
+    <div class="card-body d-flex align-items-center justify-content-between">
+      <div>
+        <h6 class="card-title">Total Kategori</h6>
+        <h3 class="card-value">{{ $totalKategori }}</h3>
+      </div>
+      <i class="bi bi-tags card-icon text-warning"></i>
+    </div>
+  </div>
+</div>
+
     </div>
 @endsection
 
